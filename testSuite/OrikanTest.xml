@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="Suite1">
+
+
+
+  <test thread-count="5" name="RegPageEmailValidation">
+    <classes>
+      <class name="orikanIssues.RegPageEmailValidation"/>
+    </classes>
+  
+  </test>
+  <test thread-count="5" name="RegPagePasswordValidation">
+    <classes>
+      <class name="orikanIssues.RegPagePasswordValidation"/>
+    </classes>
+  
+    </test>
+  <test thread-count="5" name="ContactPageFirstNameValidation">
+    <classes>
+      <class name="orikanIssues.ContactPageFirstName"/>
+    </classes>
+    </test>
+    
+     <test thread-count="5" name="ContactPagePostalValidation">
+    <classes>
+      <class name="orikanIssues.ContactPagePostal"/>
+    </classes>
+    </test>
+    
+     <test thread-count="5" name="ContactPageCityValidation">
+    <classes>
+      <class name="orikanIssues.ContactPageCity"/>
+    </classes>
+    </test>
+    
+     <test thread-count="5" name="ContactPageStateDropdownDuplicate">
+    <classes>
+      <class name="orikanIssues.ContactPageStateDropdown"/>
+    </classes>
+    </test>
+    
+     <test thread-count="5" name="PaymentsPageCardHolderNameValidation">
+    <classes>
+      <class name="orikanIssues.PaymentsPageCardHolderName"/>
+    </classes>
+    </test>
+    
+         <test thread-count="5" name="PaymentsPageCardNumberValidation">
+    <classes>
+      <class name="orikanIssues.PaymentsPageCardNumber"/>
+    </classes>
+    </test>
+    
+         <test thread-count="5" name="PaymentsPageCVVValidation">
+    <classes>
+      <class name="orikanIssues.PaymentsPageCVV"/>
+    </classes>
+    </test>
+    
+         <test thread-count="5" name="PaymentsPageExpireYearValidation">
+    <classes>
+      <class name="orikanIssues.PaymentsPageExpireYear"/>
+    </classes>
+ 
+  
+ 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

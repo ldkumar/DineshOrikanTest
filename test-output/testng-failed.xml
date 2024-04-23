@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="RegPagePasswordValidation(failed)">
+    <classes>
+      <class name="orikanIssues.RegPagePasswordValidation">
+        <methods>
+          <include name="passwordValidate"/>
+        </methods>
+      </class> <!-- orikanIssues.RegPagePasswordValidation -->
+    </classes>
+  </test> <!-- RegPagePasswordValidation(failed) -->
+  <test thread-count="5" parallel="tests" name="ContactPageCityValidation(failed)">
+    <classes>
+      <class name="orikanIssues.ContactPageCity">
+        <methods>
+          <include name="ContactPage"/>
+        </methods>
+      </class> <!-- orikanIssues.ContactPageCity -->
+    </classes>
+  </test> <!-- ContactPageCityValidation(failed) -->
+  <test thread-count="5" parallel="tests" name="RegPageEmailValidation(failed)">
+    <classes>
+      <class name="orikanIssues.RegPageEmailValidation">
+        <methods>
+          <include name="emailValidate"/>
+        </methods>
+      </class> <!-- orikanIssues.RegPageEmailValidation -->
+    </classes>
+  </test> <!-- RegPageEmailValidation(failed) -->
+  <test thread-count="5" parallel="tests" name="ContactPagePostalValidation(failed)">
+    <classes>
+      <class name="orikanIssues.ContactPagePostal">
+        <methods>
+          <include name="ContactPagepost"/>
+        </methods>
+      </class> <!-- orikanIssues.ContactPagePostal -->
+    </classes>
+  </test> <!-- ContactPagePostalValidation(failed) -->
+  <test thread-count="5" parallel="tests" name="ContactPageFirstNameValidation(failed)">
+    <classes>
+      <class name="orikanIssues.ContactPageFirstName">
+        <methods>
+          <include name="ContactPage"/>
+        </methods>
+      </class> <!-- orikanIssues.ContactPageFirstName -->
+    </classes>
+  </test> <!-- ContactPageFirstNameValidation(failed) -->
+  <test thread-count="5" parallel="tests" name="PaymentsPageExpireYearValidation(failed)">
+    <classes>
+      <class name="orikanIssues.PaymentsPageExpireYear">
+        <methods>
+          <include name="paymentPageValidation"/>
+        </methods>
+      </class> <!-- orikanIssues.PaymentsPageExpireYear -->
+    </classes>
+  </test> <!-- PaymentsPageExpireYearValidation(failed) -->
+  <test thread-count="5" parallel="tests" name="PaymentsPageCardHolderNameValidation(failed)">
+    <classes>
+      <class name="orikanIssues.PaymentsPageCardHolderName">
+        <methods>
+          <include name="paymentPageValidation"/>
+        </methods>
+      </class> <!-- orikanIssues.PaymentsPageCardHolderName -->
+    </classes>
+  </test> <!-- PaymentsPageCardHolderNameValidation(failed) -->
+  <test thread-count="5" parallel="tests" name="PaymentsPageCardNumberValidation(failed)">
+    <classes>
+      <class name="orikanIssues.PaymentsPageCardNumber">
+        <methods>
+          <include name="paymentPageValidation"/>
+        </methods>
+      </class> <!-- orikanIssues.PaymentsPageCardNumber -->
+    </classes>
+  </test> <!-- PaymentsPageCardNumberValidation(failed) -->
+  <test thread-count="5" parallel="tests" name="PaymentsPageCVVValidation(failed)">
+    <classes>
+      <class name="orikanIssues.PaymentsPageCVV">
+        <methods>
+          <include name="paymentPageValidation"/>
+        </methods>
+      </class> <!-- orikanIssues.PaymentsPageCVV -->
+    </classes>
+  </test> <!-- PaymentsPageCVVValidation(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
